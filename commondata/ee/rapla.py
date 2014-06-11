@@ -69,7 +69,7 @@ def populate(p):
     p.village("Ingliste", "79004")
     p.village("Põllu", "79020")
 
-    p.municipality("Rapla", "")
+    p.town("Rapla", "")
     p.village("Uusküla", "")
     p.smallborough("Hagudi", "")
     p.smallborough("Alu", "")
@@ -192,6 +192,7 @@ def populate(p):
 
     p.municipality("Järvakandi", "")
     p.municipality("Juuru", "")
+    p.smallborough("Juuru", "")
     p.village("Järlepa", "")
     p.village("Pirgu", "")
     p.village("Orguse", "")

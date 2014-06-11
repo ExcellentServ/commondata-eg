@@ -33,24 +33,32 @@ class Country(PlaceInEstonia):
 
 class County(PlaceInEstonia):
     value = 1
+    # maakond
 
 class Municipality(PlaceInEstonia):
     value = 2
+    # vald
+
+class Town(Municipality):
+    pass
+    # linn
 
 class Township(Municipality):
     pass
-
-class Town(Municipality):
-    value = 2
-
-class Borough(PlaceInEstonia):
-    value = 5
-
-class SmallBorough(PlaceInEstonia):
-    value = 5
+    # linnaosa
 
 class Village(PlaceInEstonia):
     value = 5
+    # küla
+
+class SmallBorough(Village):
+    pass
+    # alevik
+
+class Borough(SmallBorough):
+    pass
+    # alev
+
 
 
 def root():
