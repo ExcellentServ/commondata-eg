@@ -4,10 +4,8 @@ The ``commondata.ee`` package
 `Common knowledge <https://github.com/lsaffre/commondata>`_ about
 Estonia. Freely available and maintained in Python.
 
-.. note::
-
-  This package is no longer maintained.
-  See http://lino-framework.org/tickets/109.html
+Note: we are discussing whether this package is meaningful.  
+See http://lino-framework.org/tickets/109.html
 
 This currently includes a list of Estonian places with zip codes.
 
