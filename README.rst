@@ -1,7 +1,7 @@
 The ``commondata.ee`` package
 =============================
 
-`Common knowledge <https://github.com/lsaffre/commondata>`_ about
+`Common data <https://github.com/lsaffre/commondata>`_ about
 Estonia. Freely available and maintained in Python.
 
 Note: we are discussing whether this package is meaningful.  

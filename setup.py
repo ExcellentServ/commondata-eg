@@ -3,8 +3,8 @@ from setuptools import setup
 SETUP_INFO = dict(
     name='commondata.ee',
     version='0.0.1',
-    install_requires=[],
-    description="Common knowledge about Estonia",
+    install_requires=['commondata'],
+    description="Common data about Estonia",
     license='GPL',
     test_suite='tests',
     author='Luc Saffre',
