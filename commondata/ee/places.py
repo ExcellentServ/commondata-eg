@@ -13,14 +13,11 @@
 # along with the commondata library; if not, see
 # <http://www.gnu.org/licenses/>.
 
-"""
-
-"""
-
 from __future__ import unicode_literals
 from __future__ import print_function
 
 from commondata.utils import Place, PlaceGenerator
+
 
 class PlaceInEstonia(Place):
 
@@ -31,45 +28,51 @@ class PlaceInEstonia(Place):
 class Country(PlaceInEstonia):
     value = 0
 
+
 class County(PlaceInEstonia):
     value = 1
     # maakond
+
 
 class Municipality(PlaceInEstonia):
     value = 2
     # vald
 
+
 class Town(Municipality):
     pass
     # linn
 
-class Township(Municipality):
-    pass
+
+class District(Town):
+    value = 3
     # linnaosa
+
 
 class Village(PlaceInEstonia):
     value = 5
     # küla
 
+
 class SmallBorough(Village):
     pass
     # alevik
+
 
 class Borough(SmallBorough):
     pass
     # alev
 
 
-
 def root():
 
     p = PlaceGenerator()
-    p.install(Country, County, Town, Township, Municipality, Borough,
+    p.install(Country, County, Town, District, Municipality, Borough,
               SmallBorough, Village)
     p.set_args('name zip_code')
 
     eesti = p.country("Eesti")
-    
+
     from .harju import populate ; populate(p)
     from .hiiu import populate ; populate(p)
     from .idaviru import populate ; populate(p)
@@ -87,13 +90,3 @@ def root():
     from .v6ru import populate ; populate(p)
     
     return eesti
-
-
-def _test():
-    import doctest
-    doctest.testmod()
-
-if __name__ == "__main__":
-    _test()
-
-

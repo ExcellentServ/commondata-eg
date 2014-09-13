@@ -20,8 +20,19 @@ from __future__ import unicode_literals
 def populate(p):
 
     p.county("Harju", "")
+
     p.town("Tallinn", "")
+    p.district("Haabersti", "")
+    p.district("Kesklinn", "")
+    p.district("Kristiine", "")
+    p.district("Lasnamäe", "")
+    p.district("Mustamäe", "")
+    p.district("Nõmme", "")
+    p.district("Pirita", "")
+    p.district("Põhja-Tallinn", "")
+
     p.town("Loksa", "")
+
     p.municipality("Vasalemma", "")
     p.smallborough("Rummu", "")
     p.village("Veskiküla", "")
@@ -463,4 +474,3 @@ def populate(p):
     p.municipality("Jõesuu", "")
     p.municipality("Pohla", "")
     p.municipality("Andineeme", "")
-

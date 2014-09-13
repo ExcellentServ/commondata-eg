@@ -11,7 +11,7 @@ This currently includes a list of Estonian places with zip codes.
 
 DISCLAIMER: This comes with no warranty at all.
 
-Usage example:
+Usage examples:
 
 >>> from commondata.ee.places import root
 >>> eesti = root()
@@ -59,3 +59,10 @@ Söödi
 >>> print(haanja.children[6].name)
 Soodi
 
+>>> harju = eesti.children[0]
+>>> tallinn = harju.children[0]
+>>> print tallinn.name
+Tallinn
+>>> print(', '.join([x.name for x in tallinn.children]))
+...  #doctest: +NORMALIZE_WHITESPACE
+Haabersti, Kesklinn, Kristiine, Lasnamäe, Mustamäe, Nõmme, Pirita, Põhja-Tallinn

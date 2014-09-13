@@ -125,7 +125,8 @@ def populate(p):
 
     p.town("Narva-Jõesuu", "")
     p.town("Kohtla-Järve", "")
-    p.township("Sirgala (Viivikonna linnaosa)", "")
+    p.district("Viivikonna", "")
+    # Sirgala?
     p.municipality("Aseri", "")
     p.village("Rannu", "")
     p.village("Kestla", "43303")
