@@ -22,14 +22,14 @@ def populate(p):
     p.county("Harju", "")
 
     p.town("Tallinn", "")
-    p.district("Haabersti", "")
-    p.district("Kesklinn", "")
-    p.district("Kristiine", "")
-    p.district("Lasnamäe", "")
-    p.district("Mustamäe", "")
-    p.district("Nõmme", "")
-    p.district("Pirita", "")
-    p.district("Põhja-Tallinn", "")
+    p.township("Haabersti", "")
+    p.township("Kesklinn", "")
+    p.township("Kristiine", "")
+    p.township("Lasnamäe", "")
+    p.township("Mustamäe", "")
+    p.township("Nõmme", "")
+    p.township("Pirita", "")
+    p.township("Põhja-Tallinn", "")
 
     p.town("Loksa", "")
 

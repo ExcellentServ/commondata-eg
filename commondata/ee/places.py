@@ -44,7 +44,7 @@ class Town(Municipality):
     # linn
 
 
-class District(Town):
+class Township(Town):
     value = 3
     # linnaosa
 
@@ -67,7 +67,7 @@ class Borough(SmallBorough):
 def root():
 
     p = PlaceGenerator()
-    p.install(Country, County, Town, District, Municipality, Borough,
+    p.install(Country, County, Town, Township, Municipality, Borough,
               SmallBorough, Village)
     p.set_args('name zip_code')
 
