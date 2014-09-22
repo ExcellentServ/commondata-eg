@@ -5,7 +5,7 @@ SETUP_INFO = dict(
     version='0.0.1',
     install_requires=['commondata'],
     description="Common data about Estonia",
-    license='GPL',
+    license='BSD license',
     test_suite='tests',
     author='Luc Saffre',
     author_email='luc.saffre@gmail.com',
@@ -16,8 +16,9 @@ Programming Language :: Python :: 2.6
 Programming Language :: Python :: 2.7
 Development Status :: 4 - Beta
 Intended Audience :: Developers
-License :: OSI Approved :: GNU General Public License (GPL)
+License :: OSI Approved :: BSD license
 Natural Language :: English
+Natural Language :: Estonian
 Operating System :: OS Independent""".splitlines())
 
 SETUP_INFO.update(long_description=file('README.rst').read())
