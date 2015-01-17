@@ -12,3 +12,11 @@ Usage examples:
 
 >>> from commondata.eg.places import root
  **TODO soon**
+
+
+
+
+ Online version of this document on:
+
+    https://github.com/lsaffre/commondata
+    http://www.iamdevops.com/blog/2015/0117.html
