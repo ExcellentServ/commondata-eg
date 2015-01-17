@@ -1,15 +1,15 @@
 from setuptools import setup
 
 SETUP_INFO = dict(
-    name='commondata.ee',
+    name='commondata.eg',
     version='0.0.1',
     install_requires=['commondata'],
-    description="Common data about Estonia",
+    description="Common data about Egypt",
     license='BSD license',
     test_suite='tests',
-    author='Luc Saffre',
-    author_email='luc.saffre@gmail.com',
-    url="https://github.com/lsaffre/commondata-ee",
+    author='Mahmoud Mamdouh',
+    author_email='sharedup@gmail.com',
+    url="https://github.com/lsaffre/commondata-eg",
     classifiers="""\
 Programming Language :: Python
 Programming Language :: Python :: 2.6
@@ -18,13 +18,13 @@ Development Status :: 4 - Beta
 Intended Audience :: Developers
 License :: OSI Approved :: BSD license
 Natural Language :: English
-Natural Language :: Estonian
+Natural Language :: Arabic
 Operating System :: OS Independent""".splitlines())
 
 SETUP_INFO.update(long_description=file('README.rst').read())
 
 SETUP_INFO.update(packages=[str(n) for n in """
-commondata.ee
+commondata.eg
 """.splitlines() if n])
 
 SETUP_INFO.update(namespace_packages=['commondata'])
