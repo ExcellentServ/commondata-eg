@@ -7,12 +7,12 @@ from __future__ import unicode_literals
 __author__ = 'drx'
 
 def populate(p):
-    p.city("Alexandria","")
-    p.city("Montazah","")
-    p.city("Alexandria Shark (East)","")
-    p.city("Alexandria Wassat (Middle)","")
-    p.city("Gomrok","")
-    p.city("Agami","")
-    p.city("Amriya","")
-    p.city("Borg El Arab","")
-    p.city("Others","")
+    p.city("Alexandria","الإسكندري")
+    p.city("Montazah","المنتزة")
+    p.city("Alexandria Shark (East)","شرق الإسكندرية")
+    p.city("Alexandria Wassat (Middle)","غرب الإسكندرية")
+    p.city("Gomrok","الجمرك")
+    p.city("Agami","العجمي")
+    p.city("Amriya","الاميرية")
+    p.city("Borg El Arab","برج العرب")
+    p.city("Others","اخرى")

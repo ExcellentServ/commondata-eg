@@ -2,7 +2,7 @@ from setuptools import setup
 
 SETUP_INFO = dict(
     name='commondata.eg',
-    version='0.0.1',
+    version='0.0.2',
     install_requires=['commondata'],
     description="Common data about Egypt",
     license='BSD license',

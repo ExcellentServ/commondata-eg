@@ -31,9 +31,9 @@ def root():
 
     p = PlaceGenerator()
     p.install(Country, Governorate, City, Region)
-    p.set_args('name zip_code')
+    p.set_args('name_en name_ar zip_code')
 
-    egypt = p.country("Egypt")
+    egypt = p.country("Egypt","مصر")
 
     from .cairo import populate ; populate(p)
     from .giza import populate ; populate(p)

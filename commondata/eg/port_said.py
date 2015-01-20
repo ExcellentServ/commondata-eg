@@ -7,6 +7,6 @@ from __future__ import unicode_literals
 __author__ = 'drx'
 
 def populate(p):
-    p.city("Port Said","")
-    p.city("Port Fouad","")
-    p.city("Others","")
+    p.city("Port Said", "بورسعيد", "")
+    p.city("Port Fouad", "بورفؤاد", "")
+    p.city("Others", "اخرى", "")
