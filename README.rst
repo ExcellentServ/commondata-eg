@@ -11,7 +11,8 @@ DISCLAIMER: This comes with no warranty at all.
 Usage examples:
 
 >>> from commondata.eg.places import root
- **TODO soon**
+>>> egypt = root()
+>>> print(', '.join([x.name for x in egypt.children]))
 
 
 

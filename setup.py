@@ -9,7 +9,7 @@ SETUP_INFO = dict(
     test_suite='tests',
     author='Mahmoud Mamdouh',
     author_email='sharedup@gmail.com',
-    url="https://github.com/lsaffre/commondata-eg",
+    url="https://github.com/ExcellentServ/commondata-eg",
     classifiers="""\
 Programming Language :: Python
 Programming Language :: Python :: 2.6
